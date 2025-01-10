@@ -13,12 +13,12 @@ import { useEffect } from "react"
 const App = () => {
   const scrollRef=useRef();
 
-  useEffect(()=>{
-    const scroll=new LocomotiveScroll({
-      el:scrollRef.current,
-      smooth:true
-    })
-  })
+  // useEffect(()=>{
+  //   const scroll=new LocomotiveScroll({
+  //     el:scrollRef.current,
+  //     smooth:true
+  //   })
+  // })
   return (
     <main ref={scrollRef} className="text-sm text-neutral-300 antialiased">
       <Navbar/>
